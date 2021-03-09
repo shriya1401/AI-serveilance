@@ -1,0 +1,39 @@
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    background-image:url("Camera.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+
+.heading{
+width: 100%;
+font-size:30;
+padding:10px;
+margin:0;
+letter-spacing:5px;
+word-spacing:10px;
+
+}
+
+#start_button,#status,#number{
+   font-size: 22px;
+
+}
+
+canvas{
+    border-radius: 50px;
+    border:10px ridge violet;
+    box-shadow:5px 5px 5px white;
+    margin-top: 50px;
+}
+
+#footer{
+    background-color: lightblue;
+    bottom: 0;
+    position: fixed;
+    width:100%;
+    line-height: 2;
+    text-align: center;
+    font-size:22px;
+}
